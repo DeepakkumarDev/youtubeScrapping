@@ -1,0 +1,12 @@
+pip install google-api-python-client
+pip install youtube-transcript-api
+pydoc -p 1234
+
+http://localhost:1234/googleapiclient.discovery.html
+
+import googleapiclient.discovery
+
+help(googleapiclient.discovery)
+
+python -m pydoc googleapiclient.discovery
+python -m pydoc googleapiclient.errors
